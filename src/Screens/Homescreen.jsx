@@ -216,7 +216,26 @@ useEffect(() => {
               <h1 className="big-name">Optichain</h1>
               <h1 className="big-name">Oman</h1>
               <h3 className="skills-text">
-                Proposed value <TypewriterEffect texts={skills} />
+                Proposed values: 
+                <p>
+                  <ul>
+                    <li>
+                      <span className="font-mono text-3xl">Reducing transportation and storage costs</span>
+                    </li>
+                    <li>
+                      <span className="font-mono text-3xl">  Reducing delivery delays</span>
+                    </li>
+                    <li>
+                      <span className="font-mono text-3xl">Real-time analysis</span>
+                    </li>
+                    <li>
+                      <span className="font-mono text-3xl">Smart decisions</span>
+                    </li>
+                  </ul>
+                 
+                  </p>
+
+                
               </h3>
               <div></div>
 

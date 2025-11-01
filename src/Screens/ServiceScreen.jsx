@@ -254,7 +254,13 @@ useEffect(() => {
               <h1 className="big-name">Opti-Chain </h1>
               <h1 className="big-name">AI Prediction</h1>
               <h3 className="skills-text">
-              Current avilable services <TypewriterEffect texts={skills} />
+              Current avilable services 
+              <ul>
+                <li>
+              <span className="font-mono text-3xl">1) {skills[0]}</span>
+
+                </li>
+              </ul>
               </h3>
               <div></div>
 
